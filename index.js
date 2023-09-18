@@ -39,7 +39,7 @@ app.get("/api/map", (req, res) => {
     console.debug("Receive map request with parameters:", req.query)
 
     res.send(JSON.stringify({
-        mapUrl : "https://taksan.github.io/workadventure-map-starter-kit/map.json",
+        mapUrl : "https://b42-wa-assets.s3.amazonaws.com/novo-mapa-b42/maps/mapa.tmj",
         group : "wa",
         authenticationMandatory: false,
         redirectUrl: null,
